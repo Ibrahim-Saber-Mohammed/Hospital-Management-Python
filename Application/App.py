@@ -10,7 +10,7 @@ import Api
 from tkinter import messagebox as tkMessageBox
 from tkinter import scrolledtext as sctext
 import Api
-
+import os
 
 tries = 0 
 Hospital_Depatments = ["Cardiology","Critical Care","Gynecology","Orthopaedics"]
@@ -199,6 +199,12 @@ frame.grid(row = 0, column = 0, padx = 10, pady = 15)
 for child in frame.winfo_children():
 	child.grid_configure(padx = 10, pady = 10)
 
+if (os.path.exists("../Appointments/") == False):
+		os.makedirs("../Appointments")
+if (os.path.exists("../Doctors/") == False):
+		os.makedirs("../Doctors")
+if (os.path.exists("../patients/") == False):
+	os.makedirs("../patients")
 
 # start Gui
 Win.mainloop()
