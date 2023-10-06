@@ -1,0 +1,18 @@
+*********************************************************************************************************
+*Cardiology: Provides medical care to patients who have problems with their heart or circulation.	*
+*********************************************************************************************************
+
+*********************************************************************************************************
+*Critical Care: Also called intensive care, this department is for seriously ill patients.		*
+*********************************************************************************************************
+
+*********************************************************************************************************
+*Orthopaedics: Treats conditions related to the musculoskeletal system, including joints, 		*
+	ligaments, bones, muscles, tendons and nerves.							*
+*********************************************************************************************************
+
+
+*********************************************************************************************************
+*Gynecology: Investigates and treats problems relating to the female urinary tract and 			*
+	reproductive organs, such as Endometriosis, infertility and incontinence.			*
+*********************************************************************************************************
